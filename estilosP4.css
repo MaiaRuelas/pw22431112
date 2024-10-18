@@ -1,0 +1,114 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1278px;
+    min-width: 1278px;
+}
+footer{
+    color: grey;
+    margin-top: 40px;
+}
+footer article{
+    display: inline-block;
+    width: 17%;
+}
+header input{
+    float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+}
+header nav{
+    margin-left: 10x;
+}
+header nav ul li{
+    color: black;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+h1{
+    margin: 0px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+h1 span{
+    color: #74f43c;
+}
+#Buy{
+    right: 35px;
+    top: 406px;
+    width: 48px;
+    height: 46px;
+    
+}
+hr{
+    border: 1px dashed gray;
+    margin: 0px;
+}
+#First_bike{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 600px;
+}
+
+#primerSeccion{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+#video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img[src="img/logo_rojo.png"],
+img[src="img/bandera.png"],
+img[src="img/mundo.png"]{
+    float: right;
+}
+
+.bikeArticle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bike img{
+    position: relative;
+}
+
+.garantia{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.bike_img img{
+    max-width: 100%;
+    height: auto;
+    width: 330px;
+    margin-top: 30px;
+}
+
+.garantia img{
+    width: 200px;
+    height: auto;
+}
+
+#Go_to_shop{
+    width: 175px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+#SegundaSeccion{
+    display: inline-block;
+}
